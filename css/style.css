@@ -1,0 +1,23 @@
+.firstClsE{
+    border: 2px black solid;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+
+.clkk{
+    border: solid 2px coral;
+    padding: 40px;
+    /* background-color: lightcyan; */
+}
+
+.bg-darkClr{
+    background-color: darkslategrey;
+}
+
+.text_Font{
+    text-align: center;
+    font-family: cursive;
+    color: darkorange;
+}
