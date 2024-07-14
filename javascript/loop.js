@@ -31,15 +31,23 @@
 // });
 
 
+// let A = 40;
+// A = 400;
+// const Ar = 40;
+// Ar = 400;
+// var A = 400;
+// var A = 400;
+// var A = 400;
+// var A = 400;
+// console.log(A);
 
 
 
-// let ArrOne = [51,72,33,44,57,65,74,28,90]
+// let ArrOne = [51,72,33,44,57,65,74,28,90];
 
-// for(let i = 0; 
-//     i < ArrOne.length; 
-//     i++){
-//     console.log(ArrOne[i]);
+// for(
+//     let i = 0; i < ArrOne.length; i++){
+//     console.log(ArrOne[i])
 // }
 
 

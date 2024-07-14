@@ -18,6 +18,10 @@ function getAndUpdate() {
     update();
 }
 
+
+
+//= Update function is started
+
 function update() {
     if (localStorage.getItem('itemsJson') == null) {
         itemJsonArrOne = [];
@@ -35,7 +39,8 @@ function update() {
     let tableOne = document.getElementById("tableOne");
     let strOne = "";
     itemJsonArrOne.forEach((element, index) => {
-        strOne += ` <tr><th scope="row">${index + 1}</th><td>${element[0]}</td><td>${element[1]}</td><td><button class="btn btn-sm btn-primary" onclick="deleted(${index})">Delete</button></td></tr>`;
+        strOne += ` <tr><th scope="row">${index + 1}</th><td>${element[0]}</td><td>${element[1]}</td><td><button class="btn btn-sm btn-primary" onclick="deleted(${index})">Delete</button></td>
+        </tr>`;
     });
     tableOne.innerHTML = strOne;
     

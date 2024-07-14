@@ -12,8 +12,11 @@
     <title>Todo List</title>
   </head>
   <body>
+
+    <!--= navBar is Here -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">TODO</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -29,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="/TodoList/index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
@@ -71,6 +74,9 @@
       </div>
     </nav>
 
+
+    <!--= Form is Started -->
+
     <div class="container">
       <h1 class="text-center my-4">Todo List</h1>
 
@@ -83,7 +89,7 @@
             id="title"
             aria-describedby="emailHelp"
           />
-          <small id="emailHelp" class="form-text text-muted"
+          <small class="form-text text-muted"
             >Write What You can Save here</small
           >
         </div>
@@ -93,9 +99,10 @@
         </div>
 
         <button id="addBtn" class="btn btn-primary">Add TODO</button>
-        <button id="ClrBtn" class="btn btn-primary" onclick="clearStr()">Clear TODO</button>
+        <button class="btn btn-primary" onclick="clearStr()">Clear TODO</button>
       
 
+        <!--= Save Todo is Here -->
 
       <div class="items my-4">
         <h2>Save ToDo</h2>

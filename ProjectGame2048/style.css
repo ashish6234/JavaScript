@@ -12,6 +12,7 @@ body {
     margin: 0;
     font-size: 7.5vmin;
 }
+
 #game-Board {
     --grid-size: 4;
     --cell-size: 20vmin;
@@ -27,10 +28,14 @@ body {
 }
 
 .cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #aaa;
     border-radius: 1vmin;
 }
 
 .tile{
     position: absolute;
+    
 }

@@ -1,4 +1,4 @@
-// // datatype
+//= Datatype
 
 
 // var sstr1 = "This is string datatype in js"

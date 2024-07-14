@@ -1,17 +1,9 @@
-
-
-
-
-
-
 //? Element by ID
 let elem = document.getElementById("firstIdE").innerText = "Hi there This is Id Element here"
 console.log(elem);
 let elemCls = document.getElementsByClassName("firstClsE")
 console.log(elemCls);
 elemCls[0].computedStyleMap.background = "Green"
-
-
 
 
 document.getElementById("click").click()
@@ -94,6 +86,3 @@ clickId.addEventListener('mouseup',function(){
 clickId.addEventListener('mousedown',function(){
     console.log("clicking down");
 })
-
-
-

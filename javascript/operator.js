@@ -55,3 +55,10 @@ console.log(compare !== compare1);
 //? Not Operator
 // console.log(!true);
 // console.log(!false);
+
+
+// const x = 33, y =333;
+
+// x1 = x + y
+
+// x1
