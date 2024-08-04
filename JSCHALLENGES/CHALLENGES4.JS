@@ -15,6 +15,7 @@ for (let i = 1; i <= 10; i++) {
     console.log(`5 x ${i} = ${5 * i}`);
 }
 
+// =Done
 
 //-ACTIVITY 2
 //? TASK 3  while loop to calculate the sum of num 1 to 10
